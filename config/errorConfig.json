@@ -1,0 +1,26 @@
+{
+    "authorization":{
+
+        "login_first":{
+            "err":"Authorization error please do login first",
+            "status":401
+        },
+        "not_super_Admin":{
+            "err":"Authorization error you are not super Admin",
+            "status":403
+        },
+        "user_not_exist":{
+            "status":405,
+            "err":"user not exist"
+        }
+    },
+    "database":{
+        "connection":{
+            "status":503,
+            "err":"DataBase server is unavailable to handle this request right now"
+        }
+    },
+    "filed_validation":{
+        "status":422
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "development": {
+        "config_id": "development",
+        "node_port": 3000,
+        "database":{
+            "host": "localhost",
+            "port": "3306",
+            "user": "root",
+            "password": "root", 
+            "database": "login_system"
+        },
+        "secret":"secret",
+        "masterUser":"super admin"
+    }
+   
+}
